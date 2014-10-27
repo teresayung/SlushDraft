@@ -18,8 +18,9 @@ Once the project moves into development, the press release can be used as a touc
  
 
 ## Summary ##
-  Slush Generator for React.js lets you quickly set up a fullstack project with an express server, useful options for database, front end framework, build-tool and testing integration.
+  >Slush Generator for React.js lets you quickly set up a fullstack project with an express server, useful options for database, front end framework, build-tool and testing integration.
   
+
   ### Client ###
 
   * Scripts: JavaScript, JSX, (CoffeeScript)
