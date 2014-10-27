@@ -2,14 +2,10 @@
 
 ## Summary ##
   >Slush Generator for React.js lets you quickly set up a fullstack project with an express server, useful options for database, front end framework, build-tool and testing integration.
-
-  ## Client ##
-
-  * Scripts: JavaScript, JSX, (CoffeeScript)
-  * Markup: HTML, (Jade)
-  * Stylesheets: CSS, (Stylus), (Sass), (Less)
   
-  ## Server ##
+
+  
+  ### Server ###
 
   * Database: None, MongoDB
   * Authentication boilerplate: Yes, No
@@ -17,6 +13,12 @@
   * oAuth integrations: Facebook Twitter Google
   * Socket.io integration: Yes, No
 
+  ### Client ###
+
+  * Scripts: JavaScript, JSX, (CoffeeScript)
+  * Markup: HTML, (Jade)
+  * Stylesheets: CSS, (Stylus), (Sass), (Less)
+  
   ##Generators##
   * react-fullstack (aka react-fullstack:app)
   * react-fullstack:endpoint
