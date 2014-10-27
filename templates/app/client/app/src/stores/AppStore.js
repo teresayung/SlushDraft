@@ -13,6 +13,7 @@ var EventEmitter = require('events').EventEmitter;
 var AppConstants = require('../constants/AppConstants');
 var merge = require('react/lib/merge');
 var Q = require('q');
+var $ = require('jquery-browserify');
 
 var CHANGE_EVENT = 'change';
 
