@@ -25,18 +25,23 @@ slush react-fullstack
 
 Run `gulp` to preview on local host, don't forget to spin up an instance of mongo when doing so!
 
-## Generators
+##Generators##
 
-Available generators:
-* react:component - Generates a new react component
+  * react-fullstack (aka react-fullstack:app)
+  * react-fullstack:endpoint
+  * react-fullstack:component
+  * react-fullstack:crud
+  * react-fullstack:action
+  * react-fullstack:dispatcher
+  * react-fullstack:store
 
 **Note: Generators are to be run from the root directory of your app.**
 
 ##Testing
 Running `gulp jest` will run the unit tests with jest.
 
-##Contribute
-See the contributing docs: _CONTRIBUTING.md for instructions.
+##Contributing
+See the contributing docs: CONTRIBUTING.md for instructions.
 
 When submitting a bugfix, write a test that exposes the bug and fails before applying your fix. Submit the test alongside the fix.
 When submitting a new feature, add tests that cover the feature.
