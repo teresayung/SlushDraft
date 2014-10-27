@@ -1,4 +1,4 @@
-# Project Name #
+# ReactJS-Fullstack Slush Generator#
 
 <!-- 
 > This material was originally posted [here](http://www.quora.com/What-is-Amazons-approach-to-product-development-and-product-management). It is reproduced here for posterities sake.
@@ -16,16 +16,11 @@ Oh, and I also like to write press-releases in what I call "Oprah-speak" for mai
 Once the project moves into development, the press release can be used as a touchstone; a guiding light. The product team can ask themselves, "Are we building what is in the press release?" If they find they're spending time building things that aren't in the press release (overbuilding), they need to ask themselves why. This keeps product development focused on achieving the customer benefits and not building extraneous stuff that takes longer to build, takes resources to maintain, and doesn't provide real customer benefit (at least not enough to warrant inclusion in the press release).
  -->
  
-## Heading ##
-  > Name the product in a way the reader (i.e. your target customers) will understand.
-  React Fullstack Yeoman Generator
+## ReactJS-Fullstack Slush Generator##
 
-## Sub-Heading ##
-  > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
-  Yeoman Generator for React.js lets you quickly set up a fullstack project with an express server, useful options for database, front end framework, build-tool and testing integration.
 
 ## Summary ##
-  > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
+  > Slush Generator for React.js lets you quickly set up a fullstack project with an express server, useful options for database, front end framework, build-tool and testing integration.
   
   ### Client ###
 
@@ -46,51 +41,50 @@ Once the project moves into development, the press release can be used as a touc
   Server Side
   * react-fullstack:endpoint
   Client Side
-  * react-fullstack:route
-  * react-fullstack:controller
-  * react-fullstack:view
-  * react-fullstack:model
+  * react-fullstack:component
+  * react-fullstack:crud
+  * react-fullstack:action
+  * react-fullstack:dispatcher
+  * react-fullstack:store
 
 ## Problem ##
-  > Describe the problem your product solves.
-  There is no fullstack react Generator. Existing react generators offer few featurs / options. React is gaining popularity and this issue needs to be addressed.
+  > There is no fullstack ReactJS Generator. Existing react generators offer few features/options. React is gaining popularity and this issue needs to be addressed.
 
 ## Solution ##
-  > Describe how your product elegantly solves the problem.
-  Elegantly drafts scaffolds for faster implementation of React applications. Drastically reduces the learning curve and time spent writing boilerplate code. Integrates perfectly with Backbone and Angular and has a complete backend using Express and Mongo.
+  > Elegantly drafts scaffolds for faster implementation of React applications. Drastically reduces the learning curve and time spent writing boilerplate code. Integrates perfectly with Flux and has a complete backend using Express and Mongo.
 
 ## Quote from You ##
-  > A quote from a spokesperson in your company.
-  "I don't even know React but I could make a fullstack app using this. Move over Facebook!" - Teresa
+  >"I don't even know React but I could make a fullstack app using this. Move over Facebook!" - Teresa
   "I have ten million users rendered concurrently on my app. Angular couldn't handle it, but it was no problem for React Fullstack" - Richard
   "React can render every single note in the musical spectrum" - Marc
   "I just built this for the Github Stars" - James
 
-## How to Get Started ##
-  > Describe how easy it is to get started.
-  ## Usage
-
-Install `generator-react-fullstack`:
+## Usage
+Install `generator-slush`
 ```
-npm install -g generator-react-fullstack
+npm install -g slush
 ```
-
-Make a new directory, and `cd` into it:
+Install `gulp`
+```
+npm install -g gulp
+```
+Make a new directory, and `cd` into it
 ```
 mkdir my-new-project && cd $_
 ```
-
-Run `yo react-fullstack`, optionally passing an app name:
+Install `react-fullstack generator`
 ```
-yo react-fullstack [app-name]
+npm install -g slush-react-fullstack
+```
+Generate your full app template
+```
+slush react-fullstack
 ```
 
-Run `grunt` for building, `grunt serve` for preview, and `grunt serve:dist` for a preview of the built app.
+Run `gulp` to preview on local host, don't forget to spin up an instance of mongo
 
 ## Customer Quote ##
-  > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
-  "I owe my entire company to this scaffold" - Tony Phillips
+  > "I owe my entire company to this scaffold" - Tony Phillips
 
 ## Closing and Call to Action ##
-  > Wrap it up and give pointers where the reader should go next.
-  Use React in your next web app, and use react-fullstack to save time.
+  > Use React in your next web app, and use react-fullstack to save time.
