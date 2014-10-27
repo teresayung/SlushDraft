@@ -1,5 +1,13 @@
 'use strict';
 
+/*ReadMe:
+  Stores manage data and business logic in a Flux application.
+  Each store is responsible for a domain of the applicatoin, 
+  and they update themselves in response to actions.  When they
+  update, they emit an event that signals that their data has changed, 
+  allowing the views to fetch the new data and update accordingly. 
+*/
+
 var AppDispatcher = require('../dispatchers/AppDispatcher');
 var EventEmitter = require('events').EventEmitter;
 var AppConstants = require('../constants/AppConstants');
