@@ -16,11 +16,9 @@ Oh, and I also like to write press-releases in what I call "Oprah-speak" for mai
 Once the project moves into development, the press release can be used as a touchstone; a guiding light. The product team can ask themselves, "Are we building what is in the press release?" If they find they're spending time building things that aren't in the press release (overbuilding), they need to ask themselves why. This keeps product development focused on achieving the customer benefits and not building extraneous stuff that takes longer to build, takes resources to maintain, and doesn't provide real customer benefit (at least not enough to warrant inclusion in the press release).
  -->
  
-## ReactJS-Fullstack Slush Generator##
-
 
 ## Summary ##
-  > Slush Generator for React.js lets you quickly set up a fullstack project with an express server, useful options for database, front end framework, build-tool and testing integration.
+  Slush Generator for React.js lets you quickly set up a fullstack project with an express server, useful options for database, front end framework, build-tool and testing integration.
   
   ### Client ###
 
@@ -38,9 +36,7 @@ Once the project moves into development, the press release can be used as a touc
 
   ##Generators##
   * react-fullstack (aka react-fullstack:app)
-  Server Side
   * react-fullstack:endpoint
-  Client Side
   * react-fullstack:component
   * react-fullstack:crud
   * react-fullstack:action
@@ -60,7 +56,7 @@ Once the project moves into development, the press release can be used as a touc
   "I just built this for the Github Stars" - James
 
 ## Usage
-Install `generator-slush`
+Install `slush generator`
 ```
 npm install -g slush
 ```
@@ -81,7 +77,7 @@ Generate your full app template
 slush react-fullstack
 ```
 
-Run `gulp` to preview on local host, don't forget to spin up an instance of mongo
+Run `gulp` to preview on local host, don't forget to spin up an instance of mongo when doing so!
 
 ## Customer Quote ##
   > "I owe my entire company to this scaffold" - Tony Phillips

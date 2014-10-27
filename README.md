@@ -2,7 +2,7 @@
 >Slush generator for ReactJS - lets you quickly set up a project with sensible defaults and best practices.
 
 ##Getting Started
-Install `generator-slush`:
+Install `slush generator`
 ```
 npm install -g slush
 ```
@@ -10,7 +10,7 @@ Install `gulp`
 ```
 npm install -g gulp
 ```
-Make a new directory, and `cd` into it:
+Make a new directory, and `cd` into it
 ```
 mkdir my-new-project && cd $_
 ```
@@ -21,8 +21,9 @@ npm install -g slush-react-fullstack
 Generate your full app template
 ```
 slush react-fullstack
+```
 
-Run `gulp` to preview on local host, don't forget to spin up an instance of mongo
+Run `gulp` to preview on local host, don't forget to spin up an instance of mongo when doing so!
 
 ## Generators
 
