@@ -5,7 +5,7 @@
   
 
   
-  ### Server ###
+### Server ###
 
   * Database: None, MongoDB
   * Authentication boilerplate: Yes, No
@@ -13,12 +13,12 @@
   * oAuth integrations: Facebook Twitter Google
   * Socket.io integration: Yes, No
 
-  ### Client ###
+### Client ###
 
   * Scripts: JavaScript, JSX, (CoffeeScript)
   * Markup: HTML, (Jade)
   * Stylesheets: CSS, (Stylus), (Sass), (Less)
-  
+
   ##Generators##
   * react-fullstack (aka react-fullstack:app)
   * react-fullstack:endpoint
