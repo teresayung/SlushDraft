@@ -1,4 +1,11 @@
 'use strict';
+/*ReadMe:
+  Components are where you will be designing your view in the
+  render section.  This code is written in jsx; <this.props.activeRouteHandler/>
+  is used below for changing views for routing.  
+
+  To add components, you can run react-fullstack:component, and it will create a new component file in the folder.
+*/
 
 var React = require('react');
 
